@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlanetAlighManager : MonoBehaviour
+public class PlanetAlignManager : MonoBehaviour
 {
 
     GameObject[] planets;
