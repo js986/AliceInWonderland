@@ -24,7 +24,7 @@ public class RayCaster : MonoBehaviour
         float maxDistance = 10000f;
         RaycastHit hit;
 
-        bool isHit = Physics.Raycast(transform.position,transform.position, out hit, maxDistance);
+        bool isHit = Physics.Raycast(transform.position, pivotObject.transform.position - transform.position, out hit, maxDistance);
         if (isHit)
         {
             Gizmos.color = Color.red;
