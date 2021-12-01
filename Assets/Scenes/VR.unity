@@ -295,6 +295,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sleepy
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73339bf682c0c6b40b2425111220d4d5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 73339bf682c0c6b40b2425111220d4d5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 73339bf682c0c6b40b2425111220d4d5, type: 3}
       propertyPath: m_TagString
       value: planet
@@ -433,6 +441,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5117700066308340382, guid: 864e2e2f59f61964f95a5f23fe8a2b62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -2571118854743697038, guid: 864e2e2f59f61964f95a5f23fe8a2b62, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -440,6 +452,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 864e2e2f59f61964f95a5f23fe8a2b62, type: 3}
       propertyPath: m_Name
       value: Grumpy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 864e2e2f59f61964f95a5f23fe8a2b62, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7869873546869171050, guid: 864e2e2f59f61964f95a5f23fe8a2b62, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7869873546869171050, guid: 864e2e2f59f61964f95a5f23fe8a2b62, type: 3}
       propertyPath: m_IsActive
@@ -817,13 +837,33 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1e65847e82ae65c4a8850851e13c0f89, type: 2}
+    - target: {fileID: -7029948723529949830, guid: fe2c95f9ef91eb84493d6d8bec034174, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5117700066308340382, guid: fe2c95f9ef91eb84493d6d8bec034174, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -2571118854743697038, guid: fe2c95f9ef91eb84493d6d8bec034174, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e023cf5fa35ec81449f54e6d9177037c, type: 2}
+    - target: {fileID: -1684543897826104800, guid: fe2c95f9ef91eb84493d6d8bec034174, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fe2c95f9ef91eb84493d6d8bec034174, type: 3}
       propertyPath: m_Name
       value: Dopey
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe2c95f9ef91eb84493d6d8bec034174, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7869873546869171050, guid: fe2c95f9ef91eb84493d6d8bec034174, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7869873546869171050, guid: fe2c95f9ef91eb84493d6d8bec034174, type: 3}
       propertyPath: m_IsActive
@@ -1968,7 +2008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_LineWidth: 0.01
+  m_LineWidth: 0.005
   m_OverrideInteractorLineLength: 1
   m_LineLength: 310
   m_WidthCurve:
@@ -2101,7 +2141,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.01
+    widthMultiplier: 0.005
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -2465,7 +2505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_LineWidth: 0.01
+  m_LineWidth: 0.005
   m_OverrideInteractorLineLength: 1
   m_LineLength: 310
   m_WidthCurve:
@@ -2598,7 +2638,7 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.01
+    widthMultiplier: 0.005
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -2861,6 +2901,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5117700066308340382, guid: 7862c9206516bf348834eec6cc0f43b1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -2571118854743697038, guid: 7862c9206516bf348834eec6cc0f43b1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2868,6 +2912,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7862c9206516bf348834eec6cc0f43b1, type: 3}
       propertyPath: m_Name
       value: Bashful
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7862c9206516bf348834eec6cc0f43b1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7869873546869171050, guid: 7862c9206516bf348834eec6cc0f43b1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7869873546869171050, guid: 7862c9206516bf348834eec6cc0f43b1, type: 3}
       propertyPath: m_IsActive
@@ -2893,6 +2945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pivotObject: {fileID: 529503386}
+  isHit: 0
 --- !u!135 &1564183683
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3169,6 +3222,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5117700066308340382, guid: b17d9dd8c3486d743863fb27e9be9434, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5117700066308340382, guid: b17d9dd8c3486d743863fb27e9be9434, type: 3}
       propertyPath: m_TagString
       value: planet
       objectReference: {fileID: 0}
@@ -3179,6 +3236,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b17d9dd8c3486d743863fb27e9be9434, type: 3}
       propertyPath: m_Name
       value: Happy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b17d9dd8c3486d743863fb27e9be9434, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7869873546869171050, guid: b17d9dd8c3486d743863fb27e9be9434, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7869873546869171050, guid: b17d9dd8c3486d743863fb27e9be9434, type: 3}
       propertyPath: m_IsActive
@@ -3665,6 +3730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pivotObject: {fileID: 529503386}
+  isHit: 0
 --- !u!135 &1955809877
 SphereCollider:
   m_ObjectHideFlags: 0
