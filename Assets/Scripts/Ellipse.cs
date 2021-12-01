@@ -8,7 +8,7 @@ public class Ellipse : MonoBehaviour
 
     LineRenderer lr;
 
-    [Range(3, 64)]
+    [Range(3, 256)]
     public int segments;
     public float xAxis, zAxis;
 
